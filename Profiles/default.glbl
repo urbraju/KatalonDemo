@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Application URL under test</description>
+      <initValue>'https://www.att.com/my/#/login'</initValue>
+      <name>G_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>User Name</description>
+      <initValue>'budapudi@att.net'</initValue>
+      <name>G_UserName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password</description>
+      <initValue>'8WVRteXZ5hmySym0pE6YgQ=='</initValue>
+      <name>G_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Time out set for any action</description>
+      <initValue>120</initValue>
+      <name>G_TimeOut</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
