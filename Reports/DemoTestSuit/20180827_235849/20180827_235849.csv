@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DemoTestSuit,,,2018-08-27 23:58:52,2018-08-28 00:00:45,1m - 52.894s,FAILED
+,,,,,,
+Test Cases/KatalonDemo,,,2018-08-27 23:58:53,2018-08-28 00:00:45,1m - 51.745s,FAILED
+openBrowser,,,2018-08-27 23:58:54,2018-08-28 00:00:45,1m - 51.036s,FAILED

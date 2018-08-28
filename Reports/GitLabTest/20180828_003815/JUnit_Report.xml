@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GitLabTest" time="20" tests="1" failures="0" errors="0">
+   <testsuite name="GitLabTest" tests="1" failures="0" errors="0" time="20" timestamp="2018-08-28 00:38:17" hostname="139741 - 192.168.1.223" id="Test Suites/GitLabTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\139741\\git\\KatalonDemo\\Reports\\GitLabTest\\20180828_003815"/>
+         <property name="logFiles" value="C:\\Users\\139741\\git\\KatalonDemo\\Reports\\GitLabTest\\20180828_003815\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="139741 - 192.168.1.223"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.79"/>
+         <property name="hostAddress" value="192.168.1.223"/>
+         <property name="sessionId" value="b67dad8d8d26e66927904ae5bea24620"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/DemoTestGitLab" classname="Test Cases/DemoTestGitLab" status="PASSED">
+         <system-out><![CDATA[2018-08-28 00:38:18 - [TEST_CASE][PASSED] - Test Cases/DemoTestGitLab: Test Cases/DemoTestGitLab
+
+2018-08-28 00:38:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-28 00:38:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-28 00:38:27 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-08-28 00:38:27 - [TEST_STEP][PASSED] - Statement - baseUrl = "https://github.com/": null
+
+2018-08-28 00:38:27 - [TEST_STEP][PASSED] - Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2018-08-28 00:38:27 - [TEST_STEP][PASSED] - Statement - selenium.open("https://github.com/"): null
+
+2018-08-28 00:38:31 - [TEST_STEP][PASSED] - Statement - selenium.click("link=Sign in"): null
+
+2018-08-28 00:38:32 - [TEST_STEP][PASSED] - Statement - selenium.type("id=login_field", "urbraju@gmail.com"): null
+
+2018-08-28 00:38:32 - [TEST_STEP][PASSED] - Statement - selenium.type("id=password", "Cognizant4work"): null
+
+2018-08-28 00:38:32 - [TEST_STEP][PASSED] - Statement - selenium.click("name=commit"): null
+
+2018-08-28 00:38:33 - [TEST_STEP][PASSED] - Statement - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='urbraju'])[5]/following::span[1]"): null
+
+2018-08-28 00:38:34 - [TEST_STEP][PASSED] - Statement - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Find file'])[1]/following::summary[1]"): null
+
+2018-08-28 00:38:34 - [TEST_STEP][PASSED] - Statement - selenium.click("css=svg.octicon.octicon-clippy"): null
+
+2018-08-28 00:38:35 - [TEST_STEP][PASSED] - Statement - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Find file'])[1]/following::summary[1]"): null
+
+2018-08-28 00:38:35 - [TEST_STEP][PASSED] - Statement - selenium.click("css=svg.octicon.octicon-mark-github"): null
+
+2018-08-28 00:38:35 - [TEST_STEP][PASSED] - Statement - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='New organization'])[1]/following::img[1]"): null
+
+2018-08-28 00:38:36 - [TEST_STEP][PASSED] - Statement - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::button[1]"): null
+
+2018-08-28 00:38:36 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-28 00:38:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-28 00:38:17 - [TEST_SUITE][PASSED] - GitLabTest: Test Cases/DemoTestGitLab]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

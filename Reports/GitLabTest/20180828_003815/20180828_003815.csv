@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+GitLabTest,Chrome 67.0.3396.79,,2018-08-28 00:38:17,2018-08-28 00:38:38,20.063s,PASSED
+,,,,,,
+Test Cases/DemoTestGitLab,Chrome 67.0.3396.79,,2018-08-28 00:38:18,2018-08-28 00:38:37,19.561s,PASSED
+openBrowser,Chrome 67.0.3396.79,,2018-08-28 00:38:18,2018-08-28 00:38:27,8.829s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 67.0.3396.79,,2018-08-28 00:38:27,2018-08-28 00:38:27,0.012s,PASSED
+"Statement - baseUrl = ""https://github.com/""",Chrome 67.0.3396.79,,2018-08-28 00:38:27,2018-08-28 00:38:27,0.001s,PASSED
+"Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 67.0.3396.79,,2018-08-28 00:38:27,2018-08-28 00:38:27,0.168s,PASSED
+"Statement - selenium.open(""https://github.com/"")",Chrome 67.0.3396.79,,2018-08-28 00:38:27,2018-08-28 00:38:31,3.674s,PASSED
+"Statement - selenium.click(""link=Sign in"")",Chrome 67.0.3396.79,,2018-08-28 00:38:31,2018-08-28 00:38:32,0.447s,PASSED
+"Statement - selenium.type(""id=login_field"", ""urbraju@gmail.com"")",Chrome 67.0.3396.79,,2018-08-28 00:38:32,2018-08-28 00:38:32,0.191s,PASSED
+"Statement - selenium.type(""id=password"", ""Cognizant4work"")",Chrome 67.0.3396.79,,2018-08-28 00:38:32,2018-08-28 00:38:32,0.205s,PASSED
+"Statement - selenium.click(""name=commit"")",Chrome 67.0.3396.79,,2018-08-28 00:38:32,2018-08-28 00:38:33,1.030s,PASSED
+"Statement - selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='urbraju'])[5]/following::span[1]"")",Chrome 67.0.3396.79,,2018-08-28 00:38:33,2018-08-28 00:38:34,1.198s,PASSED
+"Statement - selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Find file'])[1]/following::summary[1]"")",Chrome 67.0.3396.79,,2018-08-28 00:38:34,2018-08-28 00:38:34,0.250s,PASSED
+"Statement - selenium.click(""css=svg.octicon.octicon-clippy"")",Chrome 67.0.3396.79,,2018-08-28 00:38:34,2018-08-28 00:38:35,0.145s,PASSED
+"Statement - selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Find file'])[1]/following::summary[1]"")",Chrome 67.0.3396.79,,2018-08-28 00:38:35,2018-08-28 00:38:35,0.104s,PASSED
+"Statement - selenium.click(""css=svg.octicon.octicon-mark-github"")",Chrome 67.0.3396.79,,2018-08-28 00:38:35,2018-08-28 00:38:35,0.628s,PASSED
+"Statement - selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='New organization'])[1]/following::img[1]"")",Chrome 67.0.3396.79,,2018-08-28 00:38:35,2018-08-28 00:38:36,0.179s,PASSED
+"Statement - selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::button[1]"")",Chrome 67.0.3396.79,,2018-08-28 00:38:36,2018-08-28 00:38:36,0.878s,PASSED
+closeBrowser,Chrome 67.0.3396.79,,2018-08-28 00:38:36,2018-08-28 00:38:37,1.092s,PASSED

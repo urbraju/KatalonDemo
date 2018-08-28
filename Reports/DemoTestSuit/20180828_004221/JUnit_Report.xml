@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DemoTestSuit" time="28" tests="0" failures="1" errors="0">
+   <testsuite name="DemoTestSuit" tests="0" failures="1" errors="0" time="28" timestamp="2018-08-28 00:42:25" hostname="139741 - 192.168.1.223" id="Test Suites/DemoTestSuit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\139741\\git\\KatalonDemo\\Reports\\DemoTestSuit\\20180828_004221"/>
+         <property name="logFiles" value="C:\\Users\\139741\\git\\KatalonDemo\\Reports\\DemoTestSuit\\20180828_004221\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\139741\\git\\KatalonDemo\\Reports\\DemoTestSuit\\20180828_004221\\1535434972768.png"/>
+         <property name="hostName" value="139741 - 192.168.1.223"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.79"/>
+         <property name="hostAddress" value="192.168.1.223"/>
+         <property name="sessionId" value="f5067c022d86d987498c65257a4b887b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/KatalonDemo" classname="Test Cases/KatalonDemo" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Overview Landing Page/a_Sign out' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTUS43633', ip: '192.168.1.223', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\139741\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: f5067c022d86d987498c65257a4b887b)"/>
+         <system-out><![CDATA[2018-08-28 00:42:26 - [TEST_CASE][FAILED] - Test Cases/KatalonDemo: Test Cases/KatalonDemo FAILED because (of) Unable to click on object 'Object Repository/Page_Overview Landing Page/a_Sign out' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTUS43633', ip: '192.168.1.223', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\139741\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: f5067c022d86d987498c65257a4b887b)
+
+2018-08-28 00:42:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-28 00:42:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-28 00:42:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.att.com/my/#/login' successfully
+
+2018-08-28 00:42:40 - [MESSAGE][PASSED] - Navigate to 'https://www.att.com/my/#/login' successfully
+
+2018-08-28 00:42:40 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-28 00:42:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-28 00:42:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_myATT Login - Pay Bills Online/h1_Sign in to manage your acco' is visible
+
+2018-08-28 00:42:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_myATT Login - Pay Bills Online/h1_Sign in to manage your acco' is visible
+
+2018-08-28 00:42:43 - [TEST_STEP][PASSED] - setText: Text 'budapudi@att.net' is set on object 'Object Repository/Page_myATT Login - Pay Bills Online/input_userName'
+
+2018-08-28 00:42:44 - [MESSAGE][PASSED] - Text 'budapudi@att.net' is set on object 'Object Repository/Page_myATT Login - Pay Bills Online/input_userName'
+
+2018-08-28 00:42:44 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_myATT Login - Pay Bills Online/input_password'
+
+2018-08-28 00:42:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_myATT Login - Pay Bills Online/input_password'
+
+2018-08-28 00:42:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_myATT Login - Pay Bills Online/span_Sign in' is clicked on
+
+2018-08-28 00:42:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_myATT Login - Pay Bills Online/span_Sign in' is clicked on
+
+2018-08-28 00:42:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Overview Landing Page/span_bheemaraj' is visible
+
+2018-08-28 00:42:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview Landing Page/span_bheemaraj' is visible
+
+2018-08-28 00:42:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview Landing Page/h1_Welcome Bheemaraj' is present
+
+2018-08-28 00:42:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview Landing Page/h1_Welcome Bheemaraj' is present
+
+2018-08-28 00:42:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview Landing Page/span_bheemaraj' is clicked on
+
+2018-08-28 00:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview Landing Page/span_bheemaraj' is clicked on
+
+2018-08-28 00:42:52 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Overview Landing Page/a_Sign out' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTUS43633', ip: '192.168.1.223', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\139741\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: f5067c022d86d987498c65257a4b887b)
+
+2018-08-28 00:42:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Overview Landing Page/a_Sign out' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTUS43633', ip: '192.168.1.223', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\139741\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: f5067c022d86d987498c65257a4b887b)
+[[ATTACHMENT|C:\\Users\\139741\\git\\KatalonDemo\\Reports\\DemoTestSuit\\20180828_004221\\1535434972768.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-28 00:42:26 - [TEST_CASE][FAILED] - Test Cases/KatalonDemo: Test Cases/KatalonDemo FAILED because (of) Unable to click on object 'Object Repository/Page_Overview Landing Page/a_Sign out' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTUS43633', ip: '192.168.1.223', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\139741\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: f5067c022d86d987498c65257a4b887b)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-28 00:42:25 - [TEST_SUITE][FAILED] - DemoTestSuit: Test Cases/KatalonDemo FAILED because (of) Unable to click on object 'Object Repository/Page_Overview Landing Page/a_Sign out' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTUS43633', ip: '192.168.1.223', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\139741\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: f5067c022d86d987498c65257a4b887b)]]></system-out>
+      <system-err><![CDATA[2018-08-28 00:42:25 - [TEST_SUITE][FAILED] - DemoTestSuit: Test Cases/KatalonDemo FAILED because (of) Unable to click on object 'Object Repository/Page_Overview Landing Page/a_Sign out' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTUS43633', ip: '192.168.1.223', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\139741\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: f5067c022d86d987498c65257a4b887b)]]></system-err>
+   </testsuite>
+</testsuites>
